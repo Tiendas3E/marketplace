@@ -20,7 +20,7 @@ Recommended folder structure (when splitting files):
 This single-file preview includes: header/navbar, responsive layout, RGB animated background, logo & profile, aside filters, products grid, simple cart (localStorage), and a P2P WebRTC starter placeholder.
 
   
-  -----> 
+  ---------> 
 
 
   
@@ -98,7 +98,7 @@ This single-file preview includes: header/navbar, responsive layout, RGB animate
       <div class="brand">
         <img src="imgs/logo.png" alt="logo" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=48 height=48><rect width=48 height=48 fill=%230b1220 rx=10/></svg>'">
         <div>
-          <h1>Huachu Marketplace</h1>
+          <h1>Tiendas3E ---  Marketplace</h1>
           <div class="muted">Productos por la banda</div>
         </div>
       </div>
@@ -125,7 +125,7 @@ This single-file preview includes: header/navbar, responsive layout, RGB animate
           <label>Categoría</label>
           <select id="cat" style="width:100%;padding:8px;border-radius:8px;background:transparent;border:1px solid rgba(255,255,255,0.03);color:inherit">
             <option value="">Todas</option>
-            <option value="ropa">Ropa</option>
+            <option value="ropa">JUGUETES </option>
             <option value="accesorios">Accesorios</option>
             <option value="digital">Digital</option>
           </select>
@@ -182,10 +182,16 @@ This single-file preview includes: header/navbar, responsive layout, RGB animate
 
     // Sample fallback data if data.json not available
     const SAMPLE = [
-      {id:1,nombre:'Playera blanca',precio:199,categoria:'ropa',imagen:'imgs/1.webp'},
+      {id:1,nombre:'juguetes',precio:199,categoria:'ropa',imagen:'imgs/1.webp'},
       {id:2,nombre:'Gorra negra',precio:149,categoria:'accesorios',imagen:'imgs/2.png'},
       {id:3,nombre:'Arte digital',precio:599,categoria:'digital',imagen:'imgs/3.png'},
       {id:4,nombre:'Sticker pack',precio:49,categoria:'accesorios',imagen:'imgs/4.png'}
+  
+          {id:5,nombre:'canasta basica',precio:199,categoria:'canasta basica',imagen:'imgs/1.webp'},
+      {id:6,nombre:'farmacia',precio:149,categoria:'farmacia',imagen:'imgs/2.png'},
+      {id:7,nombre:'promo',precio:599,categoria:'promo',imagen:'imgs/3.png'},
+      {id:8,nombre:'cigarros',precio:49,categoria:'cigarros',imagen:'imgs/4.png'}
+   
     ];
 
     let PRODUCTS = [];
