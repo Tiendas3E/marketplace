@@ -1,0 +1,7 @@
+
+[
+{id:1,nombre:'Playera blanca',precio:199,categoria:'ropa',imagen:'imgs/1.webp'},
+      {id:2,nombre:'Gorra negra',precio:149,categoria:'accesorios',imagen:'imgs/2.png'},
+      {id:3,nombre:'Arte digital',precio:599,categoria:'digital',imagen:'imgs/3.png'},
+      {id:4,nombre:'Sticker pack',precio:49,categoria:'accesorios',imagen:'imgs/4.png'}
+   ]
